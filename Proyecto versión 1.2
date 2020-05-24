@@ -1,0 +1,24 @@
+/*Programa: HolaMundo_c++
+Descripcion: crear un programa que muestre por consola el mensaje "hola numdo"
+Autor: Nataly Morales
+Editor: Ricardo Grijalva(version 1.2)
+Version: 1.2
+*/
+#include <iostream>
+#include <string.h>
+#include <conio.h>
+#include <stdlib.h>
+using namespace std;
+
+int main() {
+    char cadena [50];
+    cout << "Escriba la frase que va a mostrar en pantalla:\n ";
+    cin.getline(cadena,50,'\n');
+    system("cls");
+
+    cout<< "SU FRASE ES:\n ";
+    cout << cadena << endl;
+    getch();
+    return 0;
+
+}
